@@ -1,0 +1,26 @@
+fastapi==0.115.6
+uvicorn==0.34.0
+pydantic==2.10.4
+
+python-dotenv==1.0.1
+
+# PDF parsing
+PyMuPDF==1.28.0
+
+# LangChain core + orchestration
+langchain==0.3.14
+langchain-core==0.3.29
+langchain-text-splitters==0.3.5
+langgraph==0.2.62
+
+# Embeddings (free, local, HuggingFace)
+langchain-huggingface==0.1.2
+sentence-transformers==3.3.1
+
+# Vector database
+langchain-pinecone==0.2.0
+pinecone==5.4.2
+
+# LLM (free tier via Groq)
+langchain-groq==0.2.3
+groq==0.15.0
